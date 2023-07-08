@@ -10,6 +10,10 @@
 }
 header{
     background-color: #F3FAFF;
+    background-image: url("images/developer.png"),url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
 }
 .nav-text{
     font-size: 45px;
@@ -33,6 +37,14 @@ nav{
     list-style: none;
     margin-left: 50px;
 }
+.banner{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+
+}
 button{
     padding: 19px 36px;
     font-family: 'Open Sans', sans-serif;
@@ -42,4 +54,29 @@ button{
     border: none;
     background-color: #0A98FD;
     border-radius: 5px;
+}
+.fill-less{
+    border: 2px solid #0A98FD;
+    color: #0A98FD;
+    background:none;
+    margin-left: 20px;
+}
+.greating{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.title{
+    font-size: 85px;
+}
+.description{
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+.profile-img{
+    width: 590px;
+}
+.banner-content{
+    max-width: 590px;
 }
