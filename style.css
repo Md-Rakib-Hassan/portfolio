@@ -82,8 +82,7 @@ button{
 
 }
 .profile-img{
-    width: 675px;
-    padding-left: in;
+    width: 676px;
 
 }
 .banner-content{
@@ -131,7 +130,48 @@ main{
     justify-content: space-around;
     font-size: 15px;
 }
-.info{
 
-  
+.what-i-do-section{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
 }
+
+.skill{
+    /* background-color: #0A98FD; */
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.what-i-do-content{
+    text-align: center;
+}
+.what-i-do-title{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.what-i-do-description{
+    padding: 50px 150px;
+    color: #474747;
+}
+.what-i-do-skill-container{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+    
+
+}
+.info-title-what-i-do{
+    font-weight: 700;
+    padding: 20px 20px 20px 0px;
+
+}
+.info-description-what-i-do{
+    color: #474747;
+}
+
+
